@@ -1,0 +1,275 @@
+
+body {
+  font-family: "Gabarito", sans-serif;
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    padding: 10px;
+    margin: 2px;
+    display:flex ;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    color: #2A2B3F;
+    align-items: center;
+    
+}
+.navbar__s1{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.navbar__s1 p{
+    align-items: center;
+    margin-top: 10px;
+   
+    
+}
+
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+.log,.sign{
+    padding: 10px;
+    width: 80px;
+}
+.globe{
+    padding: 10px;
+}
+.log{
+    background-color: white;
+    color: #892DE1;
+    border: #892DE1 1px solid;
+    border-radius: 5px;
+
+}
+.sign{
+    background-color:#5022C3;
+    color: white ;
+    border: #5022C3 1px solid;
+    border-radius: 5px;
+}
+.navbar__s3{
+    display: flex;
+    gap: 20px;
+}
+.navbar__s3 p{
+    margin-top: 10px;
+}
+#globe{
+    margin-top: 10px;
+}
+
+.log:hover{
+    background: gainsboro;
+}
+.sign:hover{
+    background-color:#892DE1 ;
+}
+.globe{
+    background-color: white;
+    border: #5022C3 1px solid;
+    border-radius:5px ;
+}
+.globe:hover{
+    background-color: gainsboro;
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: black 1px solid;
+}
+.categories p{
+    background-color: #A435F0;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+.categories p:hover{
+    background-color: #E4C3FB;
+}
+.banner img{
+    width: 100%;
+}
+.career-topic h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 2.13333rem + 0.740741vw, 3.2rem);
+    line-height: 1.25;
+    letter-spacing: -0.016rem;
+    max-inline-size: 36em;
+    margin-left: 10px;
+}
+.career-topic p{
+    font-family: "Udemy Sans", "Vazirmatn", "SF Pro Text",  "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 20px;
+    color: #595c73;
+    margin-bottom: 2.4rem;
+    margin-left: 10px;
+}
+
+.course-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #f7f9fa;
+            padding: 20px;
+            justify-content: space-around;
+}
+.course-section-one{
+    padding: 10px;
+    width: 350px;
+    height: 270px;
+    border: #595c73 solid 1px;
+    border-radius: 10px;
+    margin: 5px;
+    
+    
+}
+.course-section-one:hover{
+    background-color: black;
+    color: white;
+}
+.one-image img{
+    width: 350px;
+    height: 200px;
+    border: #595c73 1px solid;
+    border-radius: 10px;
+
+
+}
+.rating-desc{
+    display: flex;
+    gap: 10px;
+    border-top: 30px;
+
+}
+.rating-desc p{
+    padding: 5px;
+    border: solid gray 1px ;
+    border-radius: 2px;
+    color: #595c73;
+    
+    
+}
+.career-accelerators{
+    margin: 20px;
+    justify-content: flex-start;
+    text-align: start;
+}
+.career-accelerators button{
+    
+    padding: 10px;
+    border: #5022C3;
+    background-color: white;
+    color: #5022C3;
+    border: #5022C3 1px solid;
+    border-radius: 5px;
+}
+.career-accelerators button:hover{
+    background-color: #EDE5F9;
+}
+.career-accelerator-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 23px;
+    line-height: 1.25;
+    letter-spacing: -0.016rem;
+    max-inline-size: 36em;
+    margin-left: 10px;
+
+
+}
+.career-accelerator-heading p{
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #595c73;
+}
+.topics{
+    padding: 10px;
+
+}
+.topic__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    
+}
+.topic__title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: clamp(2.4rem, 2.13333rem + 0.740741vw, 3.2rem);
+    line-height: 1.25;
+    letter-spacing: -0.016rem;
+    max-inline-size: 36em;
+}
+.topic__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1px;
+    flex-basis: 30%;
+    
+    
+    
+}
+.topic__container p:hover{
+    background-color:#E4C3FB;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+    gap: 20px;
+}
+.footer__section1 p{
+    margin: 10px;
+}
+.footer__section1{
+    display: flex;
+    margin-left: 20pxpx;
+}
+.footer__section2{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
