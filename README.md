@@ -1,6 +1,6 @@
 # Udemy Clone - HTML & CSS Project
 
-![Udemy Clone Preview](https://uthragiri2005.github.io/udemy-clone-2/screenshot.png) <!-- Add a screenshot if available -->
+![Udemy Clone Preview](https://uthragiri2005.github.io/udemy-clone-2/screenshot.jpg) <!-- Add a screenshot if available -->
 
 A responsive Udemy website clone built using pure HTML and CSS. This project demonstrates front-end web development skills by replicating the core visual elements of the Udemy learning platform.
 
@@ -27,8 +27,8 @@ Check out the live version of the project:
 ## Screenshots
 
 <!-- Add your screenshots here if available -->
-![Homepage](screenshots/home.png)  
-![Courses Section](screenshots/courses.png)
+![Homepage](screenshot/home.jpg)  
+![Courses Section](screenshot/courses.jpg)
 
 ## How to Run Locally
 
